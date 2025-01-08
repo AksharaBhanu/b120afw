@@ -8,7 +8,7 @@
       <![CDATA[Open Edge Browser in Local System]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:http://www.fb.com]]>
+      <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
@@ -20,7 +20,7 @@
       <![CDATA[Set ETO:7]]>
     </line>
     <line>
-      <![CDATA[test Demo:Facebook – log in or sign up]]>
+      <![CDATA[test Demo:S kart | OSPOS | Login]]>
     </line>
     <line>
       <![CDATA[Excel Data:akshara]]>
@@ -29,12 +29,12 @@
       <![CDATA[Close the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-07T07:13:55 IST" name="B120Suite" finished-at="2025-01-07T07:14:02 IST" duration-ms="7343">
+  <suite started-at="2025-01-08T06:45:49 IST" name="B120Suite" finished-at="2025-01-08T06:45:55 IST" duration-ms="6110">
     <groups>
     </groups>
-    <test started-at="2025-01-07T07:13:55 IST" name="TestQA" finished-at="2025-01-07T07:14:02 IST" duration-ms="7343">
+    <test started-at="2025-01-08T06:45:49 IST" name="TestQA" finished-at="2025-01-08T06:45:55 IST" duration-ms="6110">
       <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-07T07:13:55 IST" name="preCondition" finished-at="2025-01-07T07:13:59 IST" duration-ms="4011" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-08T06:45:49 IST" name="preCondition" finished-at="2025-01-08T06:45:52 IST" duration-ms="3133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
               <![CDATA[Open Edge Browser in Local System]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:http://www.fb.com]]>
+              <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
@@ -63,17 +63,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-07T07:13:59 IST" name="testDemo" finished-at="2025-01-07T07:14:01 IST" duration-ms="1802" status="PASS">
+        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-08T06:45:52 IST" name="testDemo" finished-at="2025-01-08T06:45:53 IST" duration-ms="1381" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[test Demo:Facebook – log in or sign up]]>
+              <![CDATA[test Demo:S kart | OSPOS | Login]]>
             </line>
             <line>
               <![CDATA[Excel Data:akshara]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDemo -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-07T07:14:01 IST" name="postCondition" finished-at="2025-01-07T07:14:02 IST" duration-ms="1490" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-08T06:45:53 IST" name="postCondition" finished-at="2025-01-08T06:45:55 IST" duration-ms="1548" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the Browser]]>
