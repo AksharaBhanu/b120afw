@@ -3,6 +3,7 @@ package script;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import generic.BaseTest;
+import generic.Utility;
 import page.HomePage;
 import page.LoginPage;
 /*Author: Umesh
@@ -17,11 +18,13 @@ public class ValidLogin extends BaseTest
 	@Test(priority = 1,groups="smoke")
 	public void testValidLogin()
 	{
+		String un = Utility.getExcelData("./data/input.xlsx","ValidLogin",1,0);
+		String pw = Utility.getExcelData("./data/input.xlsx","ValidLogin",1,1);
 //		1. enter valid user name
 		LoginPage loginPage=new LoginPage(driver);
-		loginPage.setUserName("admin");
+		loginPage.setUserName(un);
 //		2. enter valid password
-		loginPage.setPassword("pointofsale");
+		loginPage.setPassword(pw);
 //		3. click on go button
 		loginPage.clickGoButton();
 //		4. verify that home page is displayed
