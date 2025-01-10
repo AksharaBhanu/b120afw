@@ -31,5 +31,6 @@ public class ValidLogin extends BaseTest
 		HomePage homePage=new HomePage(driver);
 		boolean result = homePage.verifyHomePageIsDisplayed(wait);
 		Assert.assertTrue(result);
+		
 	}
 }

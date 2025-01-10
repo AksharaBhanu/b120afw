@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Read data from property file:./qa.properties]]>
@@ -20,21 +20,46 @@
       <![CDATA[Set ETO:7]]>
     </line>
     <line>
-      <![CDATA[test Demo:S kart | OSPOS | Login]]>
+      <![CDATA[HomePage is Displayed]]>
     </line>
     <line>
-      <![CDATA[Excel Data:akshara]]>
+      <![CDATA[Close the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Read data from property file:./qa.properties]]>
+    </line>
+    <line>
+      <![CDATA[Open Edge Browser in Local System]]>
+    </line>
+    <line>
+      <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser]]>
+    </line>
+    <line>
+      <![CDATA[Set ITO:9]]>
+    </line>
+    <line>
+      <![CDATA[Set ETO:7]]>
+    </line>
+    <line>
+      <![CDATA[Err Msg is Displayed]]>
     </line>
     <line>
       <![CDATA[Close the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-08T06:45:49 IST" name="B120Suite" finished-at="2025-01-08T06:45:55 IST" duration-ms="6110">
+  <suite started-at="2025-01-09T06:36:08 IST" name="B120Suite" finished-at="2025-01-09T06:36:20 IST" duration-ms="11389">
     <groups>
+      <group name="smoke">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@3a93b025]" name="testValidLogin" class="script.ValidLogin"/>
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:script.InvalidLogin@52e6fdee]" name="testInvalidLogin" class="script.InvalidLogin"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-01-08T06:45:49 IST" name="TestQA" finished-at="2025-01-08T06:45:55 IST" duration-ms="6110">
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-08T06:45:49 IST" name="preCondition" finished-at="2025-01-08T06:45:52 IST" duration-ms="3133" status="PASS">
+    <test started-at="2025-01-09T06:36:08 IST" name="TestQA" finished-at="2025-01-09T06:36:20 IST" duration-ms="11389">
+      <class name="script.InvalidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.InvalidLogin@52e6fdee]" started-at="2025-01-09T06:36:15 IST" name="preCondition" finished-at="2025-01-09T06:36:17 IST" duration-ms="2153" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,24 +88,66 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-08T06:45:52 IST" name="testDemo" finished-at="2025-01-08T06:45:53 IST" duration-ms="1381" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@52e6fdee]" started-at="2025-01-09T06:36:17 IST" name="testInvalidLogin" finished-at="2025-01-09T06:36:18 IST" duration-ms="803" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[test Demo:S kart | OSPOS | Login]]>
-            </line>
-            <line>
-              <![CDATA[Excel Data:akshara]]>
+              <![CDATA[Err Msg is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testDemo -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@42e99e4a]" started-at="2025-01-08T06:45:53 IST" name="postCondition" finished-at="2025-01-08T06:45:55 IST" duration-ms="1548" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.InvalidLogin@52e6fdee]" started-at="2025-01-09T06:36:18 IST" name="postCondition" finished-at="2025-01-09T06:36:20 IST" duration-ms="1512" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.ValidLogin@3a93b025]" started-at="2025-01-09T06:36:08 IST" name="preCondition" finished-at="2025-01-09T06:36:12 IST" duration-ms="3192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Read data from property file:./qa.properties]]>
+            </line>
+            <line>
+              <![CDATA[Open Edge Browser in Local System]]>
+            </line>
+            <line>
+              <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser]]>
+            </line>
+            <line>
+              <![CDATA[Set ITO:9]]>
+            </line>
+            <line>
+              <![CDATA[Set ETO:7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@3a93b025]" started-at="2025-01-09T06:36:12 IST" name="testValidLogin" finished-at="2025-01-09T06:36:14 IST" duration-ms="2242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@3a93b025]" started-at="2025-01-09T06:36:14 IST" name="postCondition" finished-at="2025-01-09T06:36:15 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- TestQA -->
   </suite> <!-- B120Suite -->
 </testng-results>
